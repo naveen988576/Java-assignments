@@ -1,0 +1,168 @@
+import java.util.Scanner;
+class Positive
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number to check Whether it is positive or negative\n");
+		int a=sc.nextInt();
+		if (a>=0) 
+		{
+		    System.out.println("Your Number is Positive");	
+		}
+		else
+		{
+            System.out.println("Your Number is Negative");
+		}
+	}
+}
+
+
+import java.util.Scanner;
+class GreatestNumber
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("To Check whether a Number Is Greater or not");
+		System.out.println("-------------------------------------------");
+		System.out.println("Enter The First Number\n");
+		int a=sc.nextInt();
+		System.out.println("Enter The Second Number\n");
+		int b=sc.nextInt();
+		System.out.println("Enter The Third Number\n");
+		int c=sc.nextInt();
+		if (a>b && a>c) 
+		{
+		  System.out.println(a +" is Greater");	
+		}
+		else if (b>a && b>c) {
+		  System.out.println(b +" is Greater");
+		}
+		else
+		{
+			System.out.println(c +" is Greater");
+		}
+	}
+}
+
+
+import java.util.Scanner;
+class Weekday
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number to display the weekday");
+		int n=sc.nextInt();
+		switch(n)
+		{
+			case 1 :
+			System.out.println("Monday");
+			break;
+			
+			case 2 :
+			System.out.println("Tuesday");
+			break;
+
+			case 3 :
+			System.out.println("Wednesday");
+			break;
+            
+            case 4 :
+			System.out.println("Thursday");
+			break;
+
+			case 5 :
+			System.out.println("Friday");
+			break;
+               
+            case 6 :
+			System.out.println("Satuarday");
+			break;
+
+			case 7 :
+			System.out.println("Sunday");
+			break;
+
+			default :
+			System.out.println("Enter a number in between 1-7");
+		}
+	}
+}
+
+
+
+import java.util.Scanner;
+class NaturalNumbers
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number to display natural numbers upto number");
+		int n=sc.nextInt();
+		System.out.println("natural numbers upto "+n+" Are:");
+		for (int i=1;i<=n;i++) 
+		{
+			System.out.println(i);
+			
+		}
+	}
+}
+
+
+
+
+
+import java.util.Scanner;
+class Math
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+        System.out.println("Programe to find Sum and Average of Given 5 Numbers :");
+        System.out.println("---------------------------------------------------");
+        System.out.println("Enter The First Number :");
+        int a=sc.nextInt();
+        System.out.println("Enter The Second Number :");
+        int b=sc.nextInt();
+        System.out.println("Enter The Third Number :");
+        int c=sc.nextInt();
+        System.out.println("Enter The Fourth Number :");
+        int d=sc.nextInt();
+        System.out.println("Enter The Fifth Number :");
+        int e=sc.nextInt();
+        int f=(a+b+c+d+e);
+        int g=(f/5);
+        System.out.println("Sum Of Given Numbers is : "+f);
+        System.out.println("Average of Given Numbers is : "+g);
+    }
+}
+
+
+
+
+
+import java.util.Scanner;
+class ProductInfo
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+        System.out.println("Programme To Display Product Information :");
+        System.out.println("------------------------------------------");
+        System.out.println("Enter The Product_Id");
+        int a=sc.nextInt();
+        System.out.println("Enter The Product Name");
+        String b=sc.next();
+        System.out.println("Enter The Product price");
+        int c=sc.nextInt();
+        System.out.println("Enter The Product Category");
+        String d=sc.next();
+        System.out.println("Enter The Brand of the Product");
+        String e=sc.next();
+        System.out.println("\n\nThe Information about the product you entered is :");
+        System.out.println("Product_Id :" +a);
+        System.out.println("Product Name : " +b);
+        System.out.println("Product price is :" +c);
+        System.out.println("Product Category is :" +d);
+        System.out.println("Product Brand is :" +e);
+     }
+}
+
+
+
