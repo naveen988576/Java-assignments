@@ -19,6 +19,11 @@ public class Employee_Info
 		long econtact=sc.nextInt();
 		System.out.println("enter the employee gender:");
 		int egender=sc.nextInt();
+		System.out.println(eid);
+		System.out.println(esalary);
+		System.out.println(eaddress);
+		System.out.println(econtact);
+		System.out.println(egender);
 		
 		
 		
